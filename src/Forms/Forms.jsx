@@ -1,4 +1,4 @@
-mport React, { Component } from "react";
+import React, { Component } from "react";
 
 class From extends Component {
   constructor() {
