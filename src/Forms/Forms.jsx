@@ -24,6 +24,7 @@ class From extends Component {
   render() {
     return (
       <React.Fragment>
+      <div className="text-center">
         <span className="mt-3">{this.state.value}</span>
         <form className="mt-3" onSubmit={this.handleSubmit}>
           <label htmlFor="name">
@@ -31,6 +32,7 @@ class From extends Component {
           </label>
           <input type="submit" value="Submit" />
         </form>
+       </div>
       </React.Fragment>
     );
   }
