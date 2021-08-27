@@ -5,8 +5,8 @@ import React from "react";
 const Navbar = ({ totalCounters }) => {
   return (
     <React.Fragment>
-      <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
           <span class="navbar-brand mb-0 h1">
             Navbar
             <span className="badge bg-pill bg-secondary ms-1">{totalCounters}</span>
