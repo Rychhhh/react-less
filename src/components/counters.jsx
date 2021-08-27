@@ -8,7 +8,7 @@ class mCounters extends Component {
 
     return (
       <React.Fragment>
-        <div className="mt-3">
+        <div className="mt-3 text-center">
           <button onClick={onReset} className="btn btn-success mb-3">
             Reset
           </button>
